@@ -1,4 +1,4 @@
-FROM openjdk:9
-ADD target/my-maven-docker-project.jar my-maven-docker-project.jar
-ENTRYPOINT ["java", "-jar","my-maven-docker-project.jar"]
-EXPOSE 8080
+# Use Alpine Linux as the base image
+FROM alpine:latest
+# Specify the command to print "mohmaed"
+CMD ["echo", "mohmaed"]
