@@ -1,1 +1,2 @@
-npm --version
+#!/bin/bash
+echo "mohamed mosa"
