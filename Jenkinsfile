@@ -24,7 +24,13 @@ pipeline {
                 echo "testing your app" 
             }
         }
-        
+        stage('mohamed') {
+            steps {
+                echo "your code is deployed right now"
+                echo "this BRANCH_NAME  $BRANCH_NAME"
+               
+            }
+        }
         stage('deployment') {  
             steps {
                 echo "your code is deployed right now"
