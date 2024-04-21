@@ -29,7 +29,7 @@ pipeline {
     post {
         failure {
           
-              build job: "replay", wait: true
+              build job: "pieline.yaml", wait: true
         }
     }
 }
